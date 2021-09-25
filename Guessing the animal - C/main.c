@@ -4,7 +4,7 @@
 
 int main()
 {
-    char r1[3], r2[3], r3[3], r4[3], r5[3], r6[3], r7[3], r8[3], r9[3], r10[3], r11[3], r12[3], r13[3], r14[3], r15[3], r16[3], r17[3], r18[3];
+    char a1[3], a2[3], a3[3], a4[3], a5[3], a6[3], a7[3], a8[3], a9[3], a10[3], a11[3], a12[3], a13[3], a14[3], a15[3], a16[3], a17[3], a18[3];
 
     printf("Below I will give you a list of some animals. Choose one and I will try to find out which one you chose. \n");
     printf("----------------- \n");
@@ -27,61 +27,61 @@ int main()
     printf("Answer the following questions yes or no, all in lowercase: \n");
 
     printf("Is it a mammal? \n");
-    gets(r1);
+    gets(a1);
     printf("\n");
 
-    if(strcmp(r1, "yes") == 0){
+    if(strcmp(a1, "yes") == 0){
             printf("Is it a quadruped? \n");
-            gets(r2);
+            gets(a2);
             printf("\n");
-            if(strcmp(r2, "yes") == 0){
+            if(strcmp(a2, "yes") == 0){
                     printf("Is it a carnivore? \n");
-                    gets(r6);
+                    gets(a6);
                     printf("\n");
-                    if(strcmp(r6, "yes") == 0){
+                    if(strcmp(a6, "yes") == 0){
                             printf("So the chosen animal was the lion. \n");
                             printf("\n");
                             printf("End of program. \n");
                     }else{
-                        if(strcmp(r6, "no")){
+                        if(strcmp(a6, "no")){
                                 printf("Is it a herbivore? \n");
-                                gets(r7);
+                                gets(a7);
                                 printf("\n");
-                                if(strcmp(r7, "yes") == 0);
+                                if(strcmp(a7, "yes") == 0);
                                 printf("So the animal is a horse. \n");
                                 printf("\n");
                                 printf("End of program. \n");
                         }else{
-                            if(strcmp(r7, "no") == 0);
+                            if(strcmp(a7, "no") == 0);
                             printf("You're kidding me that I know. \n");
                             printf("\n");
                             printf("End of program. \n");
                         }
                     }
             }else{
-                if(strcmp(r2, "no") == 0){
+                if(strcmp(a2, "no") == 0){
                         printf("Is it a biped? \n");
-                        gets(r3);
+                        gets(a3);
                         printf("\n");
-                        if(strcmp(r3, "yes") == 0){
+                        if(strcmp(a3, "yes") == 0){
                                 printf("Is it an omnivore? \n");
-                                gets(r8);
+                                gets(a8);
                                 printf("\n");
-                                if(strcmp(r8, "yes") == 0){
+                                if(strcmp(a8, "yes") == 0){
                                         printf("So the animal is a human. \n");
                                         printf("\n");
                                         printf("End of program. \n");
                                 }else{
-                                    if(strcmp(r8, "no") == 0){
+                                    if(strcmp(a8, "no") == 0){
                                         printf("Is it a fruitful one? \n");
-                                        gets(r9);
+                                        gets(a9);
                                         printf("\n");
-                                        if(strcmp(r9, "yes") == 0){
+                                        if(strcmp(a9, "yes") == 0){
                                                 printf("So the animal is a monkey. \n");
                                                 printf("\n");
                                                 printf("End of program. \n");
                                         }else{
-                                            if(strcmp(r9, "no") == 0){
+                                            if(strcmp(a9, "no") == 0){
                                                 printf("You're kidding me that I know. \n");
                                                 printf("\n");
                                                 printf("End of program. \n");
@@ -90,25 +90,25 @@ int main()
                                     }
                                 }
                         }else{
-                            if(strcmp(r3, "no") == 0){
+                            if(strcmp(a3, "no") == 0){
                                     printf("Is it a flying animal? \n");
-                                    gets(r4);
+                                    gets(a4);
                                     printf("\n");
-                                    if(strcmp(r4, "yes") == 0){
+                                    if(strcmp(a4, "yes") == 0){
                                             printf("So the animal is a bat. \n");
                                             printf("\n");
                                             printf("End of program. \n");
                                     }else{
-                                        if(strcmp(r4, "no") == 0){
+                                        if(strcmp(a4, "no") == 0){
                                                 printf("Is it an aquatic animal? \n");
-                                                gets(r5);
+                                                gets(a5);
                                                 printf("\n");
-                                                if(strcmp(r5, "yes") == 0){
+                                                if(strcmp(a5, "yes") == 0){
                                                         printf("So the animal is a whale. \n");
                                                         printf("\n");
                                                         printf("End of program. \n");
                                                 }else{
-                                                    if(strcmp(r5, "no") == 0){
+                                                    if(strcmp(a5, "no") == 0){
                                                         printf("You're kidding me that I know. \n");
                                                         printf("\n");
                                                         printf("End of program. \n");
@@ -121,33 +121,33 @@ int main()
                 }
             }
     }else{
-        if(strcmp(r1, "no") == 0){
+        if(strcmp(a1, "no") == 0){
                 printf("Is it a bird? \n");
-                gets(r18);
+                gets(a18);
                 printf("\n");
-                if(strcmp(r18, "yes") == 0){
+                if(strcmp(a18, "yes") == 0){
                         printf("Is it a bird that doesn't fly? \n");
-                        gets(r10);
+                        gets(a10);
                         printf("\n");
-                        if(strcmp(r10, "yes") == 0){
+                        if(strcmp(a10, "yes") == 0){
                                 printf("Is it a tropical bird? \n");
-                                gets(r13);
+                                gets(a13);
                                 printf("\n");
-                                if(strcmp(r13, "yes") == 0){
+                                if(strcmp(a13, "yes") == 0){
                                         printf("So the animal is an ostrich. \n");
                                         printf("\n");
                                         printf("End of program. \n");
                                 }else{
-                                    if(strcmp(r13, "no") == 0){
+                                    if(strcmp(a13, "no") == 0){
                                              printf("Is it a polar bird? \n");
-                                             gets(r14);
+                                             gets(a14);
                                              printf("\n");
-                                             if(strcmp(r14, "yes") == 0){
+                                             if(strcmp(a14, "yes") == 0){
                                                     printf("So the animal is a penguin. \n");
                                                     printf("\n");
                                                     printf("End of program. \n");
                                              }else{
-                                                 if(strcmp(r14, "no") == 0){
+                                                 if(strcmp(a14, "no") == 0){
                                                          printf("You're kidding me that I know. \n");
                                                          printf("\n");
                                                          printf("End of program. \n");
@@ -156,25 +156,25 @@ int main()
                                     }
                                 }
                         }else{
-                            if(strcmp(r10, "no") == 0){
+                            if(strcmp(a10, "no") == 0){
                                     printf("Is it a swimming animal? \n");
-                                    gets(r11);
+                                    gets(a11);
                                     printf("\n");
-                                    if(strcmp(r11, "yes") == 0){
+                                    if(strcmp(a11, "yes") == 0){
                                             printf("So the animal is a duck. \n");
                                             printf("\n");
                                             printf("End of program. \n");
                                     }else{
-                                        if(strcmp(r11, "no") == 0){
+                                        if(strcmp(a11, "no") == 0){
                                                 printf("Is it a bird of prey? \n");
-                                                gets(r12);
+                                                gets(a12);
                                                 printf("\n");
-                                                if(strcmp(r12, "yes") == 0){
+                                                if(strcmp(a12, "yes") == 0){
                                                         printf("So the animal is an eagle. \n");
                                                         printf("\n");
                                                         printf("End of program. \n");
                                                 }else{
-                                                    if(strcmp(r12, "no") == 0){
+                                                    if(strcmp(a12, "no") == 0){
                                                             printf("You're kidding me that I know. \n");
                                                             printf("\n");
                                                             printf("End of program. \n");
@@ -185,30 +185,30 @@ int main()
                             }
                         }
                 }else{
-                    if(strcmp(r18, "no") == 0){
+                    if(strcmp(a18, "no") == 0){
                         printf("So it's a reptile. \n");
                         printf("Does he have hooves? \n");
-                        gets(r15);
+                        gets(a15);
                         printf("\n");
-                        if(strcmp(r15, "yes") == 0){
+                        if(strcmp(a15, "yes") == 0){
                                 printf("So the animal is a turtle. \n");
                                 printf("\n");
                                 printf("End of program. \n");
                         }else{
-                            if(strcmp(r15, "no") == 0){
+                            if(strcmp(a15, "no") == 0){
                                     printf("Is it a carnivore? \n");
-                                    gets(r16);
+                                    gets(a16);
                                     printf("\n");
-                                    if(strcmp(r16,"yes")  == 0){
+                                    if(strcmp(a16,"yes")  == 0){
                                             printf("Is it a pawless animal? \n");
-                                            gets(r17);
+                                            gets(a17);
                                             printf("\n");
-                                            if(strcmp(r17,"yes") == 0){
+                                            if(strcmp(a17,"yes") == 0){
                                                         printf("So the animal is a snake. \n");
                                                         printf("\n");
                                                         printf("End of program. \n");
                                                 }else{
-                                                    if(strcmp(r17, "no") == 0){
+                                                    if(strcmp(a17, "no") == 0){
                                                        printf("So the animal is a crocodile. \n");
                                                         printf("\n");
                                                         printf("End of program. \n");
