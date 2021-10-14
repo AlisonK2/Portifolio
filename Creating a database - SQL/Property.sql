@@ -478,3 +478,25 @@ VALUES
 	(9, 'Victor Hugo Freitas', 'Rua Olivio Domingues, 704', 68608814922,23905487330, 76, 226, 'TO'),
 	(10, 'Alison Francisco Sales', 'Rua Ricardo Belem, 18', 55236458961, 68994410518, 1, 3, 'AC')
 GO
+
+----------------------------------------------------------------------------
+-- Part 5 - Inserting fifteen fictitious sellers (linked with different real estate agents)
+
+INSERT INTO salesman
+VALUES
+	(1, 'Sandra Regina Volpiano', 'Av. Engenheiro Luis Carlos Berrini, 43', 84964805000, 65539605903, '2002-08-04', 70, 213, 'SP'),
+	(2, 'Andre Carlos Monte', 'Rua Monte Serrat, 22', 50418227004, 10571795518, '1960-01-01', 21, 61, 'ES'),
+	(3, 'Carlos Roberto Pomposa', 'Rua Alberto Hinoto Bento, 99', 38117097044, 85237208474, '1901-09-08', 17, 50, 'CE'),
+	(4, 'Gabriel Lopes Queiros', 'Rua Verbo Divino, 10', 69063607016, 45607111818, '2008-08-08', 19, 57, 'ES'),
+	(5, 'Juan Alemany dos Santos', 'Rua Morumbi, 498', 50429872070, 76650196873, '2000-11-15', 13, 43, 'BA'),
+	(6, 'Victor Fernando Parames Neto', 'Afogados, 19', 11067382097, 24446332326, '2004-04-04', 22, 66, 'GO'),
+	(7, 'Brunno Alves Penna', 'Rua America, 90', 86596781097, 48722081145, '2001-03-29', 28, 85, 'MT'),
+	(8, 'Lorena Figueira Bolonhese', 'Rua Charles Barbosa, 669', 11580599060, 89531340128, '1999-12-31', 46, 142, 'PE'),
+	(9, 'Tatiane Marques Souza', 'Rua Oito, 4', 06879603041, 49777202895, '1968-08-22', 54, 155, 'RJ'),
+	(10, 'Laura de Mello Ruas', 'Av. Carlos Lacerda', 64117644092, 18111087703, '1987-01-04', 49, 147, 'PI'),
+	(11, 'Brunno Penna dos Santos', 'Vila Tramontano, 789', 15229189061, 28516276500, '2002-06-27', 4, 11, 'AL'),
+	(12, 'Laura Helena Gonsalves', 'Av. Dr. Timoteo Penteado, 98', 78873945031, 74488047830, '2011-12-13', 31, 100, 'MS'),
+	(13, 'Adalberto Faria Gemendo', 'Parque dos Ipes, 400', 70985765062, 22673940387, '1948-07-15', 56, 178, 'RS'),
+	(14, 'Rodrigo Penna Albuquerque', 'Rua Cachoirea, 3', 34654881050, 21530459973, '2008-12-20', 44, 128, 'PR'),
+	(15, 'Chester Bennington Hoolsvelt', 'Rua Cacique, 87', 11394840012, 65189424690, '2007-07-07', 33, 95, 'MS')
+GO
