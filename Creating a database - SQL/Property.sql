@@ -461,3 +461,20 @@ VALUES
 	(231, 'Vila Sampaio', 78, 'TO'),
 	(232, 'Boa Vista', 78, 'TO')
 GO
+
+----------------------------------------------------------------------------
+-- Part 4 - Entering ten fictitious buyers
+
+INSERT INTO buyers
+VALUES
+	(1,'Sophia Alana Bernares', 'Travessa Marilda Pereira, 865', 98727075109, 71986439001, 13, 37, 'BA'),
+	(2, 'Pedro Felipe Barros', 'Rua Carlos Olavo Vicentini, 14', 11411577213, 96992554467, 7, 19, 'AP'),
+	(3, 'Gabriela Jesus da Silva', 'Rua Jose Maurinho de Abreu, 90', 08110396763, 21935249752, 52, 152, 'RJ'),
+	(4, 'Adriana Caldeira Sales', 'Rua Juiz de Fora Pinto, 62', 14207436683, 35982613755, 35, 105, 'MG'),
+	(5, 'Joaquin Severino Soares', 'Rua Eunice Delfino, 352', 93671549392, 22987462454, 30, 90, 'MT'),
+	(6, 'Ana Carolina Cardoso Melo', 'Rua Quinze de Novembro, 555', 70092486649, 82994428237, 4, 10, 'AL'),
+	(7, 'Mashara Rebelo da Silva', 'Rua Socrates, 212', 73350935967, 11997453042, 70, 207, 'SP'),
+	(8, 'Leonardo Almeida Moreno', 'Rua Frederico Lopes, 34', 20879535233, 47976331142, 69, 204, 'SC'),
+	(9, 'Victor Hugo Freitas', 'Rua Olivio Domingues, 704', 68608814922,23905487330, 76, 226, 'TO'),
+	(10, 'Alison Francisco Sales', 'Rua Ricardo Belem, 18', 55236458961, 68994410518, 1, 3, 'AC')
+GO
