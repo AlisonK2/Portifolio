@@ -1,0 +1,10 @@
+Criar uma base se dados de imóveis seguindo os seguintes passos:
+
+Part 1 - Inserting all Brazilian countries in the country Table
+Part 2 - Inserting all Brazilian capitals and two main municipalities in each county in the city table
+Part 3 - Inserting two neighborhoods of each city in the neighborhoods table
+Part 4 - Entering ten fictitious buyers
+Part 5 - Inserting fifteen fictitious sellers (linked with different real estate agents)
+Part 6 - Registering a real estate by neighborhood table
+Part 7 - Entering five fictitious offers from each buyer
+Part 8 - Inserting predefined data into the table range_property
