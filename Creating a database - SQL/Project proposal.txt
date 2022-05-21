@@ -1,7 +1,7 @@
-Criar uma base se dados de imóveis seguindo os seguintes passos:
+Create a property database by following these steps:
 
 Part 1 - Inserting all Brazilian countries in the country Table
-Part 2 - Inserting all Brazilian capitals and two main municipalities in each county in the city table
+Part 2 - Inserting all Brazilian capitals and two main municipalities in each country in the city table
 Part 3 - Inserting two neighborhoods of each city in the neighborhoods table
 Part 4 - Entering ten fictitious buyers
 Part 5 - Inserting fifteen fictitious sellers (linked with different real estate agents)
