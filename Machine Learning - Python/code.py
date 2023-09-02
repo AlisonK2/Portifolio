@@ -57,9 +57,9 @@ data.drop(['mediaType'], axis = 1, inplace = True)
 
 data = data.rename(columns = {0: 'feature0', 1: 'feature1', 2: 'feature2', 3: 'feature3', 4: 'feature4', 5: 'feature5', 6: 'feature6'})
 
-"""- eps (Int): Number of episodes - Intervalo: 1-2527
+"""- eps (Int): Number of episodes - Interval: 1-2527
 
-- duration (Int): Average anime episode length, given in minutes - Intervalo: 1-235
+- duration (Int): Average anime episode length, given in minutes - Interval: 1-235
 
 
 """
@@ -75,16 +75,16 @@ data['duration'].fillna(22, inplace = True)
 # Transforming the "duration" column into the total time it would take to watch the entire anime
 data['duration'] = data['eps'] * data['duration']
 
-"""- watched (Int): Number of people who attended - Intervalo: 0-162000
+"""- watched (Int): Number of people who attended - Interval: 0-162000
 
 """
 
 # Inserting value "1471"(fashion) in column "watched" where it has null value
 data.watched.fillna(1471, inplace = True)
 
-"""- rating (Int): end note of the anime - Intervalo: 0.84-4.7
+"""- rating (Int): end note of the anime - Interval: 0.84-4.7
 
-- votes (Int): Number of votes to contribute to the final grade - Intervalo: 10-131000
+- votes (Int): Number of votes to contribute to the final grade - Interval: 10-131000
 
 
 
@@ -100,10 +100,10 @@ print(data.votes.median())
 """- ongoing (Boolean): Whether or not the anime is in production yet - True(2%) e False(98%)
 
 
-- startYr (Int): Release year - Intervalo: 1907-2026
+- startYr (Int): Release year - Interval: 1907-2026
 
 
-- finishYr (Int): Anime ending year - Intervalo: 1907-2026
+- finishYr (Int): Anime ending year - Interval: 1907-2026
 
 
 """
@@ -141,11 +141,11 @@ data.drop(['sznOfRelease'], axis = 1)
 data = data.rename(columns = {0: 'feature7', 1: 'feature8', 2: 'feature9', 3: 'feature10'})
 
 """Nothing was done with the following variables as they already came with no missing values:
-- watching (Int): Number of people watching - Intervalo: 0-74500
+- watching (Int): Number of people watching - Interval: 0-74500
 
-- wantWatch (Int): Number of people who want to watch - Intervalo: 0-28500
+- wantWatch (Int): Number of people who want to watch - Interval: 0-28500
 
-- dropped (Int):  Number of people who started but stopped watching - Intervalo: 0-19500
+- dropped (Int):  Number of people who started but stopped watching - Interval: 0-19500
 
 ### Machine Learning Algorithm
 """
